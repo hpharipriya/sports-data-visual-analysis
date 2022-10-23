@@ -68,3 +68,16 @@ For the visualizing this, Tree map is used to show the region wise grounds and a
 ### Trends
 While analyzing the trend, it is seen that most of the team have drops in their attributes in the last 2 years. This could be because of the lesser number of matches played after the covid period. Following figure shows the drop with Indian teams attributes.
 ![Win Pattern - Region](https://github.com/hpharipriya/sports-data-visual-analysis/blob/main/trend-res.png?raw=true)
+
+## Evaluation
+Nielsen’s Usability Heuristics, user feedbacks were studied.
+
+
+## Tech Stack
+
+**Programming Language:**  Python, NodeJs
+
+**Visualisation tool:** Spotfire
+
+**Other tools:** Google sheet
+
