@@ -21,7 +21,7 @@ The cricket data required various cleaning, grouping, and transformations before
 
 
 ## Visualization and interaction
-### Case1: What is a typical safe score for a team to win?
+### What is a typical safe score for a team to win?
 For the first case, to find a safe score, I have used the scatterplot visual with year and score in x and y-axis respectively. Color is chosen as the tool to distinguish match results and various teams are shown using different shapes. The scatter plot is chosen because there are a limited number of points to show, and it can adapt by adding 4 features to show simultaneously for this case.
 
 ![Safe score - Scatterplot](https://raw.githubusercontent.com/hpharipriya/sports-data-visual-analysis/main/safe-score-analysis_page-0001.jpg?raw=true)
@@ -37,7 +37,7 @@ The uppermost area with all green points is selected and detailed in Figure 3. I
 Regarding the visual elements in the plot, green is used for showing wins and red for losses, which is a general standard followed. The shapes represent different teams and can be used to inspect if any team is developing interesting patterns. This will also show a divergence in data points.
 
 
-### Case2 : What is the winning pattern of a team? Chasing the score or batting first?
+### What is the winning pattern of a team? Chasing the score or batting first?
 The second case deals with finding the winning pattern for teams. There are 2 possible types of victory for a team, either by scoring high runs so that the opponent cannot reach the score or by chasing in which the team scores more runs than the set target by an opponent.
 Side-by-side bar charts are the easiest and most popular ones to represent such a scenario to compare two different classes. The team and the opposition teams are grouped in the x-axis and the number of wins in the y-axis. Different colors are used to identify the win type. Tried several different ways to effectively plot this case. At first, I created a single bar chart with all team and opposition groups as shown in figure 5. But it is chaotic and difficult to analyze with the information explosion.
 
@@ -59,7 +59,11 @@ From this heatmap, it is observed that some teams have consistently had a patter
 Winning patterns depend on various factors such as the toss, the decision that teams take, and the ground circumstances such as batting friendly or bowling friendly grounds or pitches. The observed pattern for Australia and England is further analyzed by combining these other factors to get more in-depth insights. The outcome of this deeper study is discussed in the results section.
 Regarding the visual elements in the plot, the gradient of orange color is used for showing the number of wins. This plot needs to represent all teams' winning counts together for comparison. So a color that is different from team colors is selected to avoid any potential preconception.
 
+### Winning and ground 
 Since Australia has a consistent winning pattern with high score and England in both forms but with more numbers in chasing. For a deeper analysis, other factors were also combined and found that for Australia the greatest number of high score wins are from their home regions and grounds.
 For the visualizing this, Tree map is used to show the region wise grounds and a horizontal bar chart is used for showing the matches count in different grounds and color is used to identify the region. See the following figure for details.
 ![Win Pattern - Region](https://github.com/hpharipriya/sports-data-visual-analysis/blob/main/win-ground.png?raw=true)
 
+
+### Trends
+![Win Pattern - Region](https://github.com/hpharipriya/sports-data-visual-analysis/blob/main/trend-res.png?raw=true)
