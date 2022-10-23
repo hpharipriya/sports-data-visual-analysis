@@ -46,3 +46,8 @@ Side-by-side bar charts are the easiest and most popular ones to represent such 
 In the next chart, the groups were separated into different charts and shown on a single page to reduce the complexity. The complexity is reduced, and multiple teams can be compared, but it is fully occupied and cannot accommodate any more teams and hence not scalable.
 
 ![Win Pattern - Side-by-side multiple barcharts](https://github.com/hpharipriya/sports-data-visual-analysis/blob/main/win-patern-mul-.png?raw=true)
+
+To solve the above issue, an interactive filtering technique is tested as shown in following figure. The team name attribute is used for the filter. Though the complexity and the scalability are addressed, the advantage of comparing different teams simultaneously is lost in this case.
+
+![Win Pattern - Side-by-side multiple barcharts](https://github.com/hpharipriya/sports-data-visual-analysis/blob/main/win-pattern-filter.png?raw=true)
+
