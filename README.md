@@ -45,4 +45,4 @@ Side-by-side bar charts are the easiest and most popular ones to represent such 
 
 In the next chart, the groups were separated into different charts and shown on a single page to reduce the complexity. The complexity is reduced, and multiple teams can be compared, but it is fully occupied and cannot accommodate any more teams and hence not scalable.
 
-![Win Pattern - Side-by-side multiple barcharts](https://github.com/hpharipriya/sports-data-visual-analysis/blob/main/win-sing_page-0001.jpg?raw=true)
+![Win Pattern - Side-by-side multiple barcharts](https://github.com/hpharipriya/sports-data-visual-analysis/blob/main/win-patern-mul-.png?raw=true)
