@@ -20,9 +20,11 @@ Case 2:
 The cricket data required various cleaning, grouping, and transformations before the implementation of the visualization model. The ESPNcricinfo website collects and arranges data of every match on their stats page. This develops time- series data for each team with attributes such as match result, ground, team's run rates. Wikipedia pages were used to collect the team ranks over years. There were other data sources too that we tried to extract data from initially. While ESPNcricinfo pages have the feature to filter and group data by team, opposition, year, and results. This we found to be more structured to meet our requirements and include features to answer our research questions. However, the data is available in webpages in HTML format, so we developed a custom web scraping script in NodeJS using cheerio, a tool for parsing HTML and XML in NodeJS and fetched the last 10 years' data for the matches played among top- performing teams. The data obtained was in JSON format and converted into CSV using online tool https://www.convertcsv.com/json-to-csv.htm.
 
 
-Visualization and interaction
+## Visualization and interaction
 Case1: What is a typical safe score for a team to win?
 For the first case, to find a safe score, I have used the scatterplot visual with year and score in x and y-axis respectively. Color is chosen as the tool to distinguish match results and various teams are shown using different shapes. The scatter plot is chosen because there are a limited number of points to show, and it can adapt by adding 4 features to show simultaneously for this case.
+
+![Safe score - Scatterplot](https://raw.githubusercontent.com/hpharipriya/sports-data-visual-analysis/main/safe-score-analysis_page-0001.jpg?raw=true)
 
 
 
