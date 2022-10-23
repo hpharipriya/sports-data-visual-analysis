@@ -54,3 +54,12 @@ To solve the above issue, an interactive filtering technique is tested as shown 
 
 To extract information using all attributes by addressing above mentioned complexities bar charts may not be sufficient. A heat map is used as the next step as in following figure.
 ![Win Pattern - Heat map](https://github.com/hpharipriya/sports-data-visual-analysis/blob/main/win-pattern-heat.png?raw=true)
+
+From this heatmap, it is observed that some teams have consistently had a pattern of winning with all oppositions. The Australian team has won more matches by scoring a high total. Similarly, England has an advantage in winning with chasing.
+Winning patterns depend on various factors such as the toss, the decision that teams take, and the ground circumstances such as batting friendly or bowling friendly grounds or pitches. The observed pattern for Australia and England is further analyzed by combining these other factors to get more in-depth insights. The outcome of this deeper study is discussed in the results section.
+Regarding the visual elements in the plot, the gradient of orange color is used for showing the number of wins. This plot needs to represent all teams' winning counts together for comparison. So a color that is different from team colors is selected to avoid any potential preconception.
+
+Since Australia has a consistent winning pattern with high score and England in both forms but with more numbers in chasing. For a deeper analysis, other factors were also combined and found that for Australia the greatest number of high score wins are from their home regions and grounds.
+For the visualizing this, Tree map is used to show the region wise grounds and a horizontal bar chart is used for showing the matches count in different grounds and color is used to identify the region. See the following figure for details.
+![Win Pattern - Region](https://github.com/hpharipriya/sports-data-visual-analysis/blob/main/win-ground.png?raw=true)
+
