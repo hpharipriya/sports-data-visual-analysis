@@ -51,3 +51,6 @@ To solve the above issue, an interactive filtering technique is tested as shown 
 
 ![Win Pattern - Side-by-side multiple barcharts](https://github.com/hpharipriya/sports-data-visual-analysis/blob/main/win-pattern-filter.png?raw=true)
 
+
+To extract information using all attributes by addressing above mentioned complexities bar charts may not be sufficient. A heat map is used as the next step as in following figure.
+![Win Pattern - Heat map](https://github.com/hpharipriya/sports-data-visual-analysis/blob/main/win-pattern-heat.png?raw=true)
