@@ -21,12 +21,26 @@ The cricket data required various cleaning, grouping, and transformations before
 
 
 ## Visualization and interaction
-Case1: What is a typical safe score for a team to win?
+### Case1: What is a typical safe score for a team to win?
 For the first case, to find a safe score, I have used the scatterplot visual with year and score in x and y-axis respectively. Color is chosen as the tool to distinguish match results and various teams are shown using different shapes. The scatter plot is chosen because there are a limited number of points to show, and it can adapt by adding 4 features to show simultaneously for this case.
 
 ![Safe score - Scatterplot](https://raw.githubusercontent.com/hpharipriya/sports-data-visual-analysis/main/safe-score-analysis_page-0001.jpg?raw=true)
 
+Plot to analyze safe score to win. Right part shows the win-loss distribution in data.
 
 
+The left part of Figure 2 shows the features mentioned and the right side shows result data distribution. The result data distribution is balanced with 45.6% of lost and 54.4% of win matches and hence there is no evident bias in the data and can rely on it for further analysis.
+
+The scatterplot shows a pattern of green-colored clusters forming towards the top part and a red cluster towards the bottom. Examine the area of interest by selecting the part in the visual for deeper examination.
+The uppermost area with all green points is selected and detailed in Figure 3. It shows that if the score is above 372 the winning chance of a team is 100%. But a typical score to win need not be expecting a 100% win but a higher chance of victory. Moreover, the score 372 which is the lowest score for 100% victory can change as new matches are played. So, that may not be a valid approach to locate a typical safe score. Instead, by describing the upper area of the chart where there are more wins, it can be found that a score above 300 gives 75.1% wins and 24.9% loss and that gives more understanding.
+
+Regarding the visual elements in the plot, green is used for showing wins and red for losses, which is a general standard followed. The shapes represent different teams and can be used to inspect if any team is developing interesting patterns. This will also show a divergence in data points.
+
+
+### Case2 : What is the winning pattern of a team? Chasing the score or batting first?
+The second case deals with finding the winning pattern for teams. There are 2 possible types of victory for a team, either by scoring high runs so that the opponent cannot reach the score or by chasing in which the team scores more runs than the set target by an opponent.
+Side-by-side bar charts are the easiest and most popular ones to represent such a scenario to compare two different classes. The team and the opposition teams are grouped in the x-axis and the number of wins in the y-axis. Different colors are used to identify the win type. Tried several different ways to effectively plot this case. At first, I created a single bar chart with all team and opposition groups as shown in figure 5. But it is chaotic and difficult to analyze with the information explosion.
+
+![Win Pattern - Side-by-side stacked barcharts]?(https://github.com/hpharipriya/sports-data-visual-analysis/blob/main/win-sing.pdf?raw=true)
 
 
