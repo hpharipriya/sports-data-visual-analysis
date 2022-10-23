@@ -41,6 +41,6 @@ Regarding the visual elements in the plot, green is used for showing wins and re
 The second case deals with finding the winning pattern for teams. There are 2 possible types of victory for a team, either by scoring high runs so that the opponent cannot reach the score or by chasing in which the team scores more runs than the set target by an opponent.
 Side-by-side bar charts are the easiest and most popular ones to represent such a scenario to compare two different classes. The team and the opposition teams are grouped in the x-axis and the number of wins in the y-axis. Different colors are used to identify the win type. Tried several different ways to effectively plot this case. At first, I created a single bar chart with all team and opposition groups as shown in figure 5. But it is chaotic and difficult to analyze with the information explosion.
 
-![Win Pattern - Side-by-side stacked barcharts]?(https://github.com/hpharipriya/sports-data-visual-analysis/blob/main/win-sing.pdf?raw=true)
+![Win Pattern - Side-by-side stacked barcharts]?(https://github.com/hpharipriya/sports-data-visual-analysis/blob/main/win-sing_page-0001.jpg?raw=true)
 
 
