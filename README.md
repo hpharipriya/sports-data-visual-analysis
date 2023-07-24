@@ -1,5 +1,5 @@
 # sports-data-visual-analysis
-Last 10 year Cricket match Analysis fir Top 5 ranked Teams
+Last 10 year Cricket match Analysis for Top 5 ranked Teams
 
 ## Description
 Sports data is high-dimensional data with multiple magnitudes. Exploring and extracting information from it is interesting, challenging, and of high demand. Adequate visualization techniques are needed to represent these data and to tell a story precisely. In this paper, we are trying to understand the characteristics of sports data using one-day international men’s cricket data and finding out the best visualizations used for analyzing the data. The research is focused on finding the factors affecting a team's victory using visualization techniques. In the background study, we have examined various papers from the generic visualization domain, sports domain, and cricket data visualization reports. All different aspects of this information are combined and used for the whole research.
